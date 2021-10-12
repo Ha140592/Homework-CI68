@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #search {
+        height: 80px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid lightgrey;
+    }
+    #search-input {
+        width: 1000px;
+        height: 30px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    #search-btn, #detail-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 35px;
+        color:white;
+        background-color: #007bff;
+        border-radius: 5%;
+    }
+    #search-result {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .book {
+        height: 550px;
+        width: 280px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+    }
+    </style>
+</head>
+<body>
+    <div id="search">
+        <input id="search-input" type="text" placeholder="Search for...">
+        <div id="search-btn">Search</div>
+    </div>
+    <div id="search-result">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
